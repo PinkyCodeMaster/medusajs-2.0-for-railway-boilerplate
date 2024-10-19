@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="relative h-[75vh] w-full border-b border-ui-border-base overflow-hidden">
       <Image
-        src="https://utfs.io/f/Ez0xBUkcqGmdNaOf6ls1r5pSRsO0H8jcmXteuZgDvCoaMz3U"
+        src="/truck.jpg"
         alt="Military personnel in action"
         layout="fill"
         objectFit="cover"
