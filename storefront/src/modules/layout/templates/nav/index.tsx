@@ -1,12 +1,11 @@
 "use client"
 
-import { useState } from "react"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import CartButton from "@modules/layout/components/cart-button"
 import { Search, User, Menu, X } from "lucide-react"
-import { Suspense } from "react"
+import { Suspense, useState } from "react"
 
-export default function nav() {
+export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
